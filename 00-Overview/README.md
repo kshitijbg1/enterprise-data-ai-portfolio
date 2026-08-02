@@ -12,16 +12,13 @@
 
 ---
 
-I'm **Kshitij Gajjar** — an enterprise **Cloud, Data & AI** leader with 20+ years in healthcare
-across payer, provider, and life sciences. I lead global platform, data engineering, and AI/ML
-teams and advise C-suite stakeholders on modernizing cloud and data estates and moving AI from
-slideware into governed, ROI-backed production.
+I'm **Kshitij Gajjar** — an enterprise **Cloud, Data & AI** technology leader with 20+ years of experience driving transformation across healthcare payer, provider, and life sciences organizations.
 
-I'm **Kshitij Gajjar** an enterprise Cloud, Data & AI executive and healthcare technology leader with 20+ years of experience transforming how payer, provider, and life sciences organizations use technology to drive business outcomes.
+I operate at the intersection of **technology strategy, enterprise architecture, and engineering execution** leading global platform, data engineering, and AI/ML teams while serving as a **trusted technology advisor to C-suite and senior leaders** on cloud modernization, data strategy, AI adoption, architecture, and technology investment decisions.
 
-I serve as a trusted advisor and strategic client liaison, leading global platform, data engineering, and AI/ML organizations while partnering with C-suite and senior technology leaders to navigate complex transformations for translating business priorities into scalable cloud platforms, trusted data foundations, and production-grade AI capabilities.
+My experience spans **strategy through execution** shaping transformation roadmaps and target architectures, making critical technology decisions, and staying close enough to engineering to ensure solutions are **scalable, secure, governed, and production-ready**.
 
-**My focus is simple:** move organizations beyond pilots and slideware to governed, enterprise-scale AI that delivers measurable business value, combining deep healthcare domain expertise with cloud modernization, data strategy, AI transformation, and execution at scale.
+**My focus is simple:** turn Cloud, Data & AI strategy into **enterprise platforms and AI capabilities that deliver measurable business value** combining deep healthcare domain expertise, architectural depth, technology leadership, and execution at scale.
 
 This repository is a public window into the work I've carried out in my roles — the cloud
 foundations, data platforms, governance frameworks, and AI systems I've built and led in enterprise
@@ -37,6 +34,12 @@ It goes beyond code. bringing together **architectures, strategies, governance f
 
 Organizations rarely lack cloud, data, or AI technologies. The challenge is making them work together. Cloud without a data strategy becomes an expensive lift-and-shift; data without governance becomes difficult to trust and scale; and AI without either remains stuck in pilots. The frameworks in this repository reflect how I connect these layers: **a modern cloud foundation, a trusted and governed data platform, and responsible, production-ready AI** that delivers measurable business value
 
+Organizations rarely lack **cloud, data, or AI technologies**. The challenge is making them work together.
+
+Cloud without a data strategy becomes an expensive lift-and-shift; data without governance becomes difficult to trust and scale; and AI without either remains stuck in pilots.
+
+The frameworks in this repository reflect how I connect these layers: **a modern cloud foundation, a trusted and governed data platform, and responsible, production-ready AI that delivers measurable business value**.
+
 ## Start here — navigate by role
 
 | If you're a… | Start in | You'll find |
@@ -46,7 +49,7 @@ Organizations rarely lack cloud, data, or AI technologies. The challenge is maki
 | **Data leader / Chief Data Officer** | [`02-data-modernization/`](02-data-modernization/) | Lakehouse, streaming, MDM, data contracts, FHIR/HL7 interoperability, the ETKL accelerator |
 | **CISO / Risk & Compliance** | [`04-responsible-ai-governance/`](04-responsible-ai-governance/) | Governance-as-code: risk tiering, model cards, bias testing, control mappings |
 | **Enterprise / Solution Architect** | [`05-reference-architectures/`](05-reference-architectures/) + [`adr/`](adr/) | C4 reference architectures spanning cloud, data & AI — and the decisions behind them |
-| **Hiring manager / delivery leader** | [`06-platform-engineering/`](06-platform-engineering/) | DataOps, ModelOps/LLMOps, eval harnesses — proof I ship, not just architect |
+| **Technology / Engineering leader** | [`06-platform-engineering/`](06-platform-engineering/) | DataOps, ModelOps/LLMOps, eval harnesses — proof I ship, not just architect |
 | **Finance / value owner** | [`07-finops/`](07-finops/) | Cloud + AI unit economics: cost-per-workload and cost-per-resolved-task models |
 | **Just want the demos** | [`03-ai-genai-usecases/`](03-ai-genai-usecases/) | Prior auth, FWA, HEDIS/Stars, risk adjustment — on synthetic data |
 
@@ -70,41 +73,23 @@ The repo is organized around three domain pillars **Cloud, Data, and AI** with g
 | [`09-thought-leadership/`](09-thought-leadership/) | Deep-dive articles and industry perspectives drawn from lessons learned in the field. |
 | [`adr/`](adr/) | Architecture decision records — the *why* behind the *what*, across cloud, data & AI. |
 
-## Selected outcomes
+## What this repository demonstrates
 
-Outcomes delivered across payer and provider engagements over my career, grouped by pillar. The reference implementations in this repository are **independent patterns built on synthetic data** they illustrate the *approach* behind these results, not the client systems that produced them.
+This repository focuses on the **technology, architecture, and engineering practices** behind enterprise Cloud, Data & AI transformation in healthcare.
 
-**Cloud**
+The work demonstrates how I approach **cloud modernization, enterprise architecture, data platforms, healthcare interoperability, AI/GenAI, responsible AI governance, platform engineering, and FinOps** from technology strategy and architecture through implementation and production readiness.
 
-| Outcome | Result |
-|---|---|
-| Platform infrastructure cost, while absorbing 3× data-volume growth | **↓ 30%** via distributed-processing and storage-tiering optimization |
-| Analytics latency across 30TB of claims & clinical data | **6 hours → 30 minutes** on a Databricks/Snowflake lakehouse |
+Rather than reproducing client systems or engagements, the repository translates experience into **independent reference architectures, frameworks, implementation patterns, accelerators, architecture decisions, and working demonstrations** built using public standards and synthetic data.
 
-**Data**
-
-| Outcome | Result |
-|---|---|
-| Enterprise data quality score | **68% → 91%**, at a **98%** regulatory audit pass rate across 12 domains |
-| Legacy consolidation for a 3M-member payer | **22 source systems / 30TB** unified into one platform |
-| New-client data onboarding | **10 weeks → 12 days** via the AI-driven ETKL accelerator |
-
-**AI**
-
-| Outcome | Result |
-|---|---|
-| Prior authorization turnaround | **5 days → 24 hours** across ~400K annual requests |
-| Generative AI use cases into production | **25+**, with approval time cut **12 weeks → 3 weeks** |
-| AI platform run-rate cost | **↓ 40% (≈$400K/yr)** via AI FinOps |
-| Fraud, waste & abuse | **↓ 22% false positives**, recoveries up to **$4M/yr** with GraphRAG |
+For career history, leadership scope, and measurable business outcomes, please refer to **my resume and LinkedIn profile**.
 
 ## Data & provenance
 
-**Everything runnable in this repository uses synthetic data only. **Any Demos are built using public standards, HL7 **FHIR**, the **Da Vinci** implementation guides, **CMS** rules and synthetic patient data from **[Synthea](https://synthetichealth.github.io/synthea/)**. No proprietary code, client data, or protected health information (PHI) is included anywhere in this repo. Career metrics referenced above represent professional outcomes only and do not reproduce or expose client systems, data, or intellectual property. See [`docs/data-provenance.md`](docs/data-provenance.md) for the full statement.
+**Everything runnable in this repository uses synthetic data only.** Any Demos are built using public standards, HL7 **FHIR**, the **Da Vinci** implementation guides, **CMS** rules and synthetic patient data from **[Synthea](https://synthetichealth.github.io/synthea/)**. No proprietary code, client data, or protected health information (PHI) is included anywhere in this repo. Career metrics referenced above represent professional outcomes only and do not reproduce or expose client systems, data, or intellectual property. See [`docs/data-provenance.md`](docs/data-provenance.md) for the full statement.
 
 ## About
 
-I annually participate in **AHIP**, the **Databricks Data + AI Summit**, and **Snowflake Summit**, and advise healthcare leaders on cloud and data modernization, responsible AI adoption, and ROI.
+I engage with industry forums including **AHIP, the Databricks Data + AI Summit, and Snowflake Summit**, and work with healthcare technology leaders on cloud and data modernization, enterprise architecture, responsible AI adoption, and production-scale AI.
 
 - 💼 **LinkedIn:** [linkedin.com/in/kshitijgajjar](https://www.linkedin.com/in/kshitijgajjar/)
 - ✍️ **Writing:** [`09-thought-leadership/`](09-thought-leadership/)
