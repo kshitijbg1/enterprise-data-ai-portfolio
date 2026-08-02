@@ -1,6 +1,6 @@
 # Healthcare Cloud, Data & AI
 
-**Modernizing cloud and data platforms and making AI safe to run in production — in regulated healthcare, with provable ROI.**
+**Modernizing cloud and data platforms and making AI safe to run in production in regulated healthcare, with provable ROI.**
 
 <!-- Badges: wire these up once CI is live. They are the strongest "receipts" signal in the repo. -->
 ![Reference Architectures](https://img.shields.io/badge/reference--architectures-C4-blue)
@@ -20,10 +20,10 @@ My experience spans **strategy through execution** shaping transformation roadma
 
 **My focus is simple:** turn Cloud, Data & AI strategy into **enterprise platforms and AI capabilities that deliver measurable business value** combining deep healthcare domain expertise, architectural depth, technology leadership, and execution at scale.
 
-This repository is a public window into the work I've carried out in my roles — the cloud
+This repository is a public window into the work I've carried out in my roles the cloud
 foundations, data platforms, governance frameworks, and AI systems I've built and led in enterprise
 healthcare. It's not a code dump; it's a working body of evidence for a specific claim: that lasting
-value comes from getting **all three layers right together** — a modern cloud foundation, trusted
+value comes from getting **all three layers right together** a modern cloud foundation, trusted
 data, and AI that's safe to run in production and provably worth its cost.
 
 This repository is a public portfolio of my work, thinking, and experience at the intersection of Cloud, Data, AI, and Healthcare shaped by the enterprise transformations, platforms, and AI initiatives I’ve built, led, and advised throughout my career.
@@ -44,16 +44,16 @@ The frameworks in this repository reflect how I connect these layers: **a modern
 
 | If you're a… | Start in | You'll find |
 |---|---|---|
-| **CIO / CXO / Chief AI Officer** | [`00-executive-perspective/`](00-executive-perspective/) | Operating model, modernization strategy, ROI frameworks — no code required |
+| **CIO / CXO / Chief AI Officer** | [`00-executive-perspective/`](00-executive-perspective/) | Operating model, modernization strategy, ROI frameworks, no code required |
 | **Cloud / Platform leader** | [`01-cloud-modernization/`](01-cloud-modernization/) | Landing zones, multi-cloud IaC, platform engineering, FinOps foundations |
 | **Data leader / Chief Data Officer** | [`02-data-modernization/`](02-data-modernization/) | Lakehouse, streaming, MDM, data contracts, FHIR/HL7 interoperability, the ETKL accelerator |
 | **CISO / Risk & Compliance** | [`04-responsible-ai-governance/`](04-responsible-ai-governance/) | Governance-as-code: risk tiering, model cards, bias testing, control mappings |
-| **Enterprise / Solution Architect** | [`05-reference-architectures/`](05-reference-architectures/) + [`adr/`](adr/) | C4 reference architectures spanning cloud, data & AI — and the decisions behind them |
-| **Technology / Engineering leader** | [`06-platform-engineering/`](06-platform-engineering/) | DataOps, ModelOps/LLMOps, eval harnesses — proof I ship, not just architect |
+| **Enterprise / Solution Architect** | [`05-reference-architectures/`](05-reference-architectures/) + [`adr/`](adr/) | C4 reference architectures spanning cloud, data & AI and the decisions behind them |
+| **Technology / Engineering leader** | [`06-platform-engineering/`](06-platform-engineering/) | DataOps, ModelOps/LLMOps, eval harnesses, proof I ship, not just architect |
 | **Finance / value owner** | [`07-finops/`](07-finops/) | Cloud + AI unit economics: cost-per-workload and cost-per-resolved-task models |
-| **Just want the demos** | [`03-ai-genai-usecases/`](03-ai-genai-usecases/) | Prior auth, FWA, HEDIS/Stars, risk adjustment — on synthetic data |
+| **Just want the demos** | [`03-ai-genai-usecases/`](03-ai-genai-usecases/) | Prior auth, FWA, HEDIS/Stars, risk adjustment on synthetic data |
 
-▶️ **[90-second walkthrough video — link coming soon]** — the fastest way to see how it fits together.
+▶️ **[90-second walkthrough video — link coming soon]** the fastest way to see how it fits together.
 
 ## What's inside
 
@@ -64,14 +64,14 @@ The repo is organized around three domain pillars **Cloud, Data, and AI** with g
 | [`00-executive-perspective/`](00-executive-perspective/) | Point-of-view essays, operating model, and modernization/ROI frameworks for leaders funding healthcare technology. |
 | [`01-cloud-modernization/`](01-cloud-modernization/) | **Cloud pillar.** Multi-cloud landing zones (AWS/Azure/GCP), infrastructure-as-code (Terraform/CloudFormation), Kubernetes platform engineering, and cloud cost foundations. |
 | [`02-data-modernization/`](02-data-modernization/) | **Data pillar.** Lakehouse blueprints (Databricks/Snowflake), streaming & batch pipelines (Kafka/Spark), data modeling, master data management, data contracts & quality, and FHIR/HL7/X12 interoperability. |
-| [`03-ai-genai-usecases/`](03-ai-genai-usecases/) | **AI pillar.** Reference implementations of real healthcare workflows on synthetic data — led by an agentic prior-authorization build on Da Vinci FHIR profiles, plus FWA, HEDIS/Stars, and risk adjustment. |
-| [`04-responsible-ai-governance/`](04-responsible-ai-governance/) | **Signature work.** Responsible AI governance as code — use-case intake, risk tiering, model cards, bias/fairness harness, eval gates, mapped to NIST AI RMF, ISO/IEC 42001, HTI-1 DSI, and HIPAA. |
-| [`05-reference-architectures/`](05-reference-architectures/) | Cross-pillar C4 reference architectures — cloud landing zone, lakehouse, FHIR interoperability, RAG/GraphRAG, and agentic bounded-autonomy patterns. |
+| [`03-ai-genai-usecases/`](03-ai-genai-usecases/) | **AI pillar.** Reference implementations of real healthcare workflows on synthetic data led by an agentic prior-authorization build on Da Vinci FHIR profiles, plus FWA, HEDIS/Stars, and risk adjustment. |
+| [`04-responsible-ai-governance/`](04-responsible-ai-governance/) | **Signature work.** Responsible AI governance as code use-case intake, risk tiering, model cards, bias/fairness harness, eval gates, mapped to NIST AI RMF, ISO/IEC 42001, HTI-1 DSI, and HIPAA. |
+| [`05-reference-architectures/`](05-reference-architectures/) | Cross-pillar C4 reference architectures cloud landing zone, lakehouse, FHIR interoperability, RAG/GraphRAG, and agentic bounded-autonomy patterns. |
 | [`06-platform-engineering/`](06-platform-engineering/) | DataOps and ModelOps/LLMOps, CI/CD, automated evaluation harnesses, and drift/hallucination monitoring. |
 | [`07-finops/`](07-finops/) | The unit-economics discipline behind sustainable platforms: cloud cost optimization, token budgeting, model tiering/routing, and cost-per-workload / cost-per-resolved-task models. |
 | [`08-frameworks-and-playbooks/`](08-frameworks-and-playbooks/) | The **Healthcare Cloud/Data/AI Maturity Model**, the ETKL onboarding accelerator, and modernization & intake-to-production playbooks. |
 | [`09-thought-leadership/`](09-thought-leadership/) | Deep-dive articles and industry perspectives drawn from lessons learned in the field. |
-| [`adr/`](adr/) | Architecture decision records — the *why* behind the *what*, across cloud, data & AI. |
+| [`adr/`](adr/) | Architecture decision records the *why* behind the *what*, across cloud, data & AI. |
 
 ## What this repository demonstrates
 
