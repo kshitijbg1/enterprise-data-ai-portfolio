@@ -12,7 +12,7 @@
 
 ---
 
-I'm **Kshitij Gajjar** — an enterprise **Cloud, Data & AI** technology leader with 20+ years of experience driving transformation across healthcare payer, provider, and life sciences organizations.
+I am a enterprise **Cloud, Data & AI** technology leader with 20+ years of experience driving transformation across healthcare payer, provider, and life sciences organizations.
 
 I operate at the intersection of **technology strategy, enterprise architecture, and engineering execution** leading global platform, data engineering, and AI/ML teams while serving as a **trusted technology advisor to C-suite and senior leaders** on cloud modernization, data strategy, AI adoption, architecture, and technology investment decisions.
 
@@ -35,6 +35,10 @@ It goes beyond code. bringing together **architectures, strategies, governance f
 Organizations rarely lack cloud, data, or AI technologies. The challenge is making them work together. Cloud without a data strategy becomes an expensive lift-and-shift; data without governance becomes difficult to trust and scale; and AI without either remains stuck in pilots. The frameworks in this repository reflect how I connect these layers: **a modern cloud foundation, a trusted and governed data platform, and responsible, production-ready AI** that delivers measurable business value
 
 Organizations rarely lack **cloud, data, or AI technologies**. The challenge is making them work together.
+
+<p align="center">
+  <img src="TheProblem.png" alt="The Problem I work on" width="900">
+</p>
 
 Cloud without a data strategy becomes an expensive lift-and-shift; data without governance becomes difficult to trust and scale; and AI without either remains stuck in pilots.
 
